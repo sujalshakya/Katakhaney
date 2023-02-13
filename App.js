@@ -5,10 +5,10 @@ import React, { useState } from "react";
 import RestaurantScreen from "./src/features/restaurant/screens/restaurants.screen";
 export default function App() {
   return (
-   <>
-   <RestaurantScreen />
-   <StatusBar style="auto" />
-   </>
+    <>
+      <RestaurantScreen />
+      <StatusBar style="auto" />
+    </>
   );
 }
 
